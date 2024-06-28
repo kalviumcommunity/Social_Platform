@@ -1,0 +1,17 @@
+meta {
+  name: unfollow put
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:5000/user/667d8a8c0cb39920802cd8cf/unfollow
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "currentUserId":"667d949a8f7777c7cb90bd0a"
+  }
+}

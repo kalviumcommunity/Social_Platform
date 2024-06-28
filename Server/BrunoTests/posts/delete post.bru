@@ -1,0 +1,17 @@
+meta {
+  name: delete post
+  type: http
+  seq: 4
+}
+
+delete {
+  url: http://localhost:5000/post/667d98e3262a53322ee25cb5
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId":"667d947c8f7777c7cb90bd08"
+  }
+}
