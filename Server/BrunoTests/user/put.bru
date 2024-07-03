@@ -1,0 +1,21 @@
+meta {
+  name: put
+  type: http
+  seq: 2
+}
+
+put {
+  url: http://localhost:5000/user/667d8a8c0cb39920802cd8cf
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "currentUserId":"667d8a8c0cb39920802cd8cf",
+    "username":"maybe",
+    "firstname":"sreela",
+    "currentUserAdminStatus":false,
+    "password":"jungkook"
+  }
+}

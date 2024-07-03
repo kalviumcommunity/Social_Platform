@@ -1,0 +1,18 @@
+meta {
+  name: update post
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:5000/post/667d98e3262a53322ee25cb5
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId":"667d947c8f7777c7cb90bd08",
+    "desc":"Hello I am Sreela and I like productivity"
+  }
+}

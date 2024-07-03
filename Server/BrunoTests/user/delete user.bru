@@ -1,0 +1,18 @@
+meta {
+  name: delete user
+  type: http
+  seq: 3
+}
+
+delete {
+  url: http://localhost:5000/user/667d8bb07f84167520f08b3f
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "currentUserId":"667d8bb07f84167520f08b3f",
+    "currentUserAdminStatus":false
+  }
+}

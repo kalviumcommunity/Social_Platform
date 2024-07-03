@@ -1,0 +1,17 @@
+meta {
+  name: like post
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:5000/post/667d9803262a53322ee25cb1/like
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId":"667d8a8c0cb39920802cd8cf"
+  }
+}

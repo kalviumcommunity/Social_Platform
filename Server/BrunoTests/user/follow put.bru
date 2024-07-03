@@ -1,0 +1,17 @@
+meta {
+  name: follow put
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:5000/user/667d947c8f7777c7cb90bd08/follow
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "currentUserId":"667d949a8f7777c7cb90bd0a"
+  }
+}

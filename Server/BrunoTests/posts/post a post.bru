@@ -1,0 +1,18 @@
+meta {
+  name: post a post
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5000/post
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId":"667d949a8f7777c7cb90bd0a",
+    "desc":"Lets beat procrastination together!"
+  }
+}

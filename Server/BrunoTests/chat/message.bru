@@ -1,0 +1,19 @@
+meta {
+  name: message
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:5000/message
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "chatId":"668420e28eeed75d8dc285a1",
+    "senderId":"667e5cc7d5633957449912c2",
+    "text":"Hello How are you?"
+  }
+}
