@@ -1,0 +1,18 @@
+meta {
+  name: convo
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5000/chat
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "senderId":"667e5cc7d5633957449912c2",
+    "receiverId":"667e5d8bd5633957449912d1"
+  }
+}
