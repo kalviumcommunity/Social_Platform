@@ -90,10 +90,6 @@ export const deleteUser = async (req, res) => {
 };
 
 // Follow a User
-<<<<<<< HEAD
-=======
-// changed
->>>>>>> ea6e5140600214e811ca7694c7df5a46e3babfeb
 export const followUser = async (req, res) => {
   const id = req.params.id;
   const { _id } = req.body;
@@ -120,10 +116,6 @@ export const followUser = async (req, res) => {
 };
 
 // Unfollow a User
-<<<<<<< HEAD
-=======
-// changed
->>>>>>> ea6e5140600214e811ca7694c7df5a46e3babfeb
 export const unfollowUser = async (req, res) => {
   const id = req.params.id;
   const { _id } = req.body;
