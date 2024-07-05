@@ -27,6 +27,10 @@ const UserSchema = new mongoose.Schema(
     about: String,
     livesIn: String,
     worksAt: String,
+<<<<<<< HEAD
+=======
+    relationship: String,
+>>>>>>> ea6e5140600214e811ca7694c7df5a46e3babfeb
     country: String,
     followers: [],
     following: [],

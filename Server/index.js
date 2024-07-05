@@ -25,7 +25,11 @@ app.use(express.static('public'));
 app.use('/images', express.static('images'));
 
 // Connect to MongoDB
+<<<<<<< HEAD
 mongoose.connect(process.env.MONGO_DB)
+=======
+mongoose.connect(process.env.MONGO_DB, { useNewUrlParser: true, useUnifiedTopology: true })
+>>>>>>> ea6e5140600214e811ca7694c7df5a46e3babfeb
   .then(() =>
     app.listen(5000, () =>
       console.log(`Listening at port 5000`)
